@@ -34,5 +34,12 @@ namespace ProyectoSharp
 			Mates matematicas = new Mates();
 			matematicas.Show();
 		}
+		
+		void Label4Click(object sender, EventArgs e)
+		{
+			humanidades form2 = new humanidades();
+
+            form2.Show();			
+		}
 	}
 }

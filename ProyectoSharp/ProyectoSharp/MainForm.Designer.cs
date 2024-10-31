@@ -82,6 +82,7 @@ namespace ProyectoSharp
 			this.label4.Size = new System.Drawing.Size(100, 23);
 			this.label4.TabIndex = 3;
 			this.label4.Text = "Humanidades";
+			this.label4.Click += new System.EventHandler(this.Label4Click);
 			// 
 			// label5
 			// 
@@ -113,7 +114,6 @@ namespace ProyectoSharp
 			this.Name = "MainForm";
 			this.Text = "ProyectoSharp";
 			this.ResumeLayout(false);
-
 		}
 	}
 }
