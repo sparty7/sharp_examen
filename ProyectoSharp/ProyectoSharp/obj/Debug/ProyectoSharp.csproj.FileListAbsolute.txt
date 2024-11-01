@@ -1,0 +1,19 @@
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.csprojResolveAssemblyReference.cache
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.MainForm.resources
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.csproj.GenerateResource.Cache
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.exe.config
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.exe
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.pdb
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.exe
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.pdb
+C:\Users\alxax\Documents\SharpDevelop Projects\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.Mates.resources
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.exe.config
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.exe
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\bin\Debug\ProyectoSharp.pdb
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.MainForm.resources
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.Mates.resources
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.csproj.GenerateResource.Cache
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.exe
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.pdb
+C:\Users\CC1_PC32\sharp_examen\ProyectoSharp\ProyectoSharp\obj\Debug\ProyectoSharp.humanidades.resources
