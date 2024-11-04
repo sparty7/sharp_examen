@@ -41,5 +41,11 @@ namespace ProyectoSharp
 
             form2.Show();			
 		}
+		
+		void Label6Click(object sender, EventArgs e)
+		{
+			Ingles ingles = new Ingles();
+			ingles.Show();
+		}
 	}
 }
