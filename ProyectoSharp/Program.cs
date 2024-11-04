@@ -1,15 +1,15 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC24
+ * User: alxax
  * Date: 30/10/2024
- * Time: 07:40 a. m.
+ * Time: 07:55 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 using System.Windows.Forms;
 
-namespace Fisica
+namespace ProyectoSharp
 {
 	/// <summary>
 	/// Class with program entry point.

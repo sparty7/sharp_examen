@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC24
+ * User: alxax
  * Date: 30/10/2024
- * Time: 07:40 a. m.
+ * Time: 07:55 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Fisica
+namespace ProyectoSharp
 {
 	/// <summary>
 	/// Description of MainForm.
@@ -28,6 +28,18 @@ namespace Fisica
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		void Label2Click(object sender, EventArgs e)
+		{
+			Mates matematicas = new Mates();
+			matematicas.Show();
+		}
+		
+		void Label4Click(object sender, EventArgs e)
+		{
+			humanidades form2 = new humanidades();
+
+            form2.Show();			
 		}
 	}
 }
