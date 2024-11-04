@@ -99,6 +99,7 @@ namespace ProyectoSharp
 			this.label6.Size = new System.Drawing.Size(100, 23);
 			this.label6.TabIndex = 5;
 			this.label6.Text = "Inglés";
+			this.label6.Click += new System.EventHandler(this.Label6Click);
 			// 
 			// MainForm
 			// 
