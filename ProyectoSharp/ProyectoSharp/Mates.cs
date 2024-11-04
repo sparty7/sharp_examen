@@ -77,7 +77,7 @@ namespace ProyectoSharp
 	            	if(numeros[i]!=numeros[i-1]){
 	            		if(rep>maxrep){
 	            			maxrep = rep;
-	            			moda = numeros[i];
+	            			moda = numeros[i-1];
 	            		}
 	            		rep = 1;
 	            	}
