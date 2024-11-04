@@ -1,14 +1,14 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC22
+ * User: alxax
  * Date: 30/10/2024
- * Time: 07:43 a. m.
+ * Time: 07:58 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
-namespace Ingles
+namespace ProyectoSharp
 {
-	partial class MainForm
+	partial class Ingles
 	{
 		/// <summary>
 		/// Designer variable used to keep track of non-visual components.
@@ -37,11 +37,11 @@ namespace Ingles
 		private void InitializeComponent()
 		{
 			// 
-			// MainForm
+			// Ingles
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Text = "Ingles";
-			this.Name = "MainForm";
+			this.Name = "Ingles";
 		}
 	}
 }

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{B42A4652-E83A-41E7-B2E1-D08A70C7BC02}</ProjectGuid>
+    <ProjectGuid>{E64F7DCA-B606-4632-9B3E-437A54CBD650}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Ingles</RootNamespace>
-    <AssemblyName>Ingles</AssemblyName>
+    <RootNamespace>ProyectoSharp</RootNamespace>
+    <AssemblyName>ProyectoSharp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -47,12 +50,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fisica.cs" />
+    <Compile Include="Fisica.Designer.cs">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="humanidades.cs" />
+    <Compile Include="humanidades.Designer.cs">
+      <DependentUpon>humanidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ingles.cs" />
+    <Compile Include="Ingles.Designer.cs">
+      <DependentUpon>Ingles.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mates.cs" />
+    <Compile Include="Mates.Designer.cs">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Socioemocional.cs" />
+    <Compile Include="Socioemocional.Designer.cs">
+      <DependentUpon>Socioemocional.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="humanidades.resx">
+      <DependentUpon>humanidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mates.resx">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
